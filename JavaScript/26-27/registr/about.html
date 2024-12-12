@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="user_info_div">
+            <span id="user_info_txt"></span>
+            <a href="#" id="user_logout">Exit</a>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <form id="user_info_form" action="" method="get">
+            <h2>User info</h2>
+
+            <div class="input_row">
+                <div class="input_container">
+                    <p class="input_label">First name</p>
+                    <input class="form_input" type="text" id="firstname" name="firstname" required maxlength="20">
+                </div>
+                
+                <div class="input_container">
+                    <p class="input_label">Last name</p>
+                    <input class="form_input" type="text" id="lastname" name="lastname" required maxlength="20">
+                </div>
+            </div>
+
+            <div class="input_row">
+                <div class="input_container">
+                    <p class="input_label">Year of birth</p>
+                    <input class="form_input" type="number" id="year" name="year" required min="1900" max="2024">
+                </div>
+
+                <div class="input_container">
+                    <p class="input_label">Gender</p>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input_row">
+                <div class="input_container">
+                    <p class="input_label">Phone number</p>
+                    <input class="form_input" type="text" id="phone" name="phone">
+                </div>
+
+                <div class="input_container">
+                    <p class="input_label">Telegram</p>
+                    <input class="form_input" type="text" id="telegram" name="telegram">
+                </div>
+            </div>
+            <div class="input_row">           
+                <input type="submit" value="Save" id="submit_btn">
+            </div>
+
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="about.js"></script>
+</body>
+</html>

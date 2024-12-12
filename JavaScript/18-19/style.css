@@ -1,0 +1,43 @@
+#task_4{
+    width: 500px;
+    background-color: darkcyan;
+    display: flex;
+}
+.task_4_right{
+    width: 75%;
+    padding: 5px;
+}
+#task_4_text{
+    color: indigo;
+}
+.task_4_btn{
+
+    padding: 5px;
+}
+#full_progress{
+    width: 200px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+#cur_progress{
+    width: 50px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 5px;
+    position: relative;
+    bottom: 30px;
+}
+#task_7_table thead{
+    font-weight: bold;
+}
+#task_7_table{
+    background-color: bisque;
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+#task_7_table td{
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(152, 140, 156);
+    margin: 0;
+    padding: 0;
+}
+#user_info_div{
+    text-align: right;
+    margin: 10px;
+}

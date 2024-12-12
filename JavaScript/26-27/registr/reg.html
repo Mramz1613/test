@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="user_info_div">
+            <span id="user_info_txt"></span>
+            <a href="#" id="user_logout">Exit</a>
+        </div>
+        <hr>
+    </header>
+    <form action="about.html" method="get" id="reg_form">
+            <h2>Registration</h2>
+            <div class="label_row">
+                <span class="label">Enter your email:</span>
+                <span id="email_error">Wrong email address</span>
+            </div>
+            <input type="email" name="email" id="email_input" class="reg_input" required placeholder="example@mail.com" name="email">
+
+            <div class="label_row">
+            <span class="label">Enter your password:</span>
+                <span id="pass_1_error">Only numbers, letters and puncrations</span>
+            </div>
+            <input type="password" name="password" id="pass_1_input" class="reg_input" required placeholder="123456AZ!,.az" name="password_1">
+    
+            <div class="label_row">
+            <span class="label">Enter your password again:</span>
+                <span class="email_error" id="pass_2_error">Password dont match</span>
+            </div>
+            <input type="password" name="repeat_password" id="pass_2_input" class="reg_input" required placeholder="123456AZ!,.az" name="password_2">
+            <input type="submit" value="Sing in" id="submit_btn">
+    </form>
+    <script src="reg.js"></script>
+</body>
+</html>

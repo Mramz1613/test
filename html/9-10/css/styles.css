@@ -1,0 +1,68 @@
+body{
+    background-color: aquamarine;
+    background-image: url(../cloud.png);
+    animation: cloud 10s infinite;
+}
+@keyframes cloud {
+    from{
+        background-position-x:0px ;
+    }
+    to{
+        background-position-x:1000px ;
+    }
+}
+
+
+
+
+
+
+.my_class{
+    /* подключение шрифта */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing:  5px;
+}
+.my_class2{
+    writing-mode: vertical-rl;
+    text-shadow: -2px -2px black;
+}
+.my_class3{
+    color: blue;
+    word-spacing: 30px;
+}
+.my_class4{
+    word-wrap: break-word;
+}
+.my_class5{
+    font-size: 1.7em;
+    text-decoration: overline;
+}
+.my_class6{
+    text-decoration: double underline red;
+    line-height: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 90px;
+}
+.my_class7{
+    text-shadow: -1px -1px black;
+    color: blueviolet;
+    font-size: 24px;
+}
+.my_class8{
+    text-shadow: 2px 2px rgba(79, 3, 193, 0.43);
+    font-size: 24px;
+    color: blueviolet;
+    padding: 15px;
+    text-align: center;
+    margin: 0%;
+    list-style: none;
+}
+.img_size{
+    image-resolution: from-image 30dpi;;
+}
+.my_class9:hover{
+    background-color: rgb(33, 163, 88);
+    margin: 0%;
+    list-style: none;
+}

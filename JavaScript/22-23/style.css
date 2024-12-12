@@ -1,0 +1,61 @@
+.body{
+    background-color: rgb(146, 142, 142);
+}
+.task_7_article{
+    background-color: cornflowerblue;
+    font-size: 50px;
+
+}
+#btn_scroll_top{
+    width: 50px;
+    height: 50px;
+    background-image:url("https://cdn-icons-png.flaticon.com/512/156/156330.png") ;
+    background-size: cover;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
+
+#task_8{
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+
+}
+#res_div{
+    height: 75px;
+    background-color: aliceblue;
+}
+.buttons_row button{
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    
+}
+.buttons_row button:hover{
+
+    transform: scale(1.05);
+    border: 3px solid black;
+}
+
+#id_form_task{
+    background-color: rgb(69, 133, 90);
+    width: 300px;
+    border-radius: 7%;
+    padding: 10px;
+}
+
+
+#id_form_task p{
+    margin-bottom: 0px;
+
+}
+.input_text{
+    width: 95%;
+}
+#rem_btn{
+    width: 20px;
+}
+#sub_btn{
+    width: 95%;
+}

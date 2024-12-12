@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!-- Описывает тип документа для браузера -->
+<html lang="en">  <!-- lang атрибут языка, HTML начало всего кода -->
+<head>
+    <meta charset="UTF-8"> <!-- Мета это информация о будущей странице, чарсэен атрибкт набора символов -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Задаем значение атрибутов,а имеенно режим режим отображения для браузера, режим сопаставляется с версией браузера -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Задаем ширену отображения наэкране устройства, а также указываем масштаб по умолчанию -->
+    <title>Document</title>
+</head>
+<body>
+    <pre> <!-- Для отображения программного кода -->
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+            </code>
+    </pre>
+    <h1>Использование тега &lt;blockquote&gt;</h1>
+    <blockquote cite="https://www.instagram.com/cidre80rub"> <!-- Тег для цитат -->
+        Я знаю, что ничего не знаю
+        <br>Но кто-то не знает и этого
+        <footer>-Сократ</footer>
+    </blockquote>
+    <p id = first_para>Первый текст с цветным задним фоном</p>
+    <p id = second_para>Второй текст с цветным задним фоном</p>
+    <p id = third_para>Второй текст с цветным задним фоном</p>
+    <!-- Синтаксис написания тега с атрибутом <имя_тега имя_атрибута = "значение атрибута"> -->
+    <a href="https://www.t.me/vliefe">Мой тг канал</a>
+    <!-- Для подключения CSS кода используем тег style -->
+    <div> 
+        <span id="red_span">&lt;span&gt;</span> может быть <span id = under_line>вложен</span> в <span id="red_span">&lt;div&gt;</span> и наоборот
+    </div>
+    <style>
+        #under_line{
+            text-decoration: unset;
+            border-bottom: 2px rgb(60, 0, 255) dashed;
+            font-size: 30px;
+            background-color: rgb(52, 242, 97)
+        }
+        #red_span{
+            color: red;
+        }
+        body{
+            background-color: rgb(20, 63, 109); /* фон страницы */
+        }
+        #first_para /* обращение по id к определенному тегу */{
+            background-color: rgb(106, 206, 115);
+            font-family: 'Courier New', Courier, monospace;
+            text-align: left;
+            font-weight: 1000;
+            font-size: 500%;
+        }
+        #second_para{
+            background-color: rgb(68, 163, 203);
+            font-family: Arial;
+            text-align: center;
+            font-weight: 100;
+            font-size: 300%;
+        }
+        #third_para{
+            color: rgb(124, 50, 202);
+        }
+    </style>
+</body>
+</html>

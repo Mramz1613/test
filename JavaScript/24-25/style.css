@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+}
+/* #task_2_form{
+    background-color: blueviolet;
+    width: 500px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px black;
+}
+.input_row{
+    display: flex;
+    justify-content: space-around;
+}
+.input_elem{
+    margin-top: -15px;
+}
+.input_label{
+    margin-bottom: 0px;
+}
+#form_btn{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+}
+#task_3_form{
+    background-color: blueviolet;
+    width: 500px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px black;
+}
+.input_row{
+    display: flex;
+    justify-content: space-around;
+}
+.input_elem{
+    margin-top: -15px;
+
+}
+.input_label{
+    margin-bottom: 0px;
+}
+#form_btn{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+}
+#res table{
+    width: 400px;
+    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-collapse: collapse;
+
+}
+#res table td{
+    border: 1px black solid;
+    text-align: center;
+    border-collapse: collapse;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img_list_1{
+            list-style-image: url(image/finger.png);
+        }
+        #img_list_2{
+            list-style-image: url(image/image1.png);
+        }
+        ul{
+            /* list-style-type: circle; */
+            /* Пустой круг */
+            list-style-type:circle;
+            background-color: aqua;
+        }
+        #black{
+            color: rgb(14, 87, 36);
+            background-color: aqua;
+        }
+        #red{
+            color: brown;
+            background-color: teal
+        }
+    </style>
+</head>
+<body>
+    <!-- Cписки в html -->
+    
+    <h1>Нумерованные список/Ordered</h1>
+    <p>Комплектующие системного блока</p>
+    <ol id="img_list_1">
+        <li >Материнская плата</li>    
+        <li>Процессор</li>
+        <li>Блок питания</li>
+        <li>Видео карта</li>
+        <li>Оперативная память</li>
+        <li>Жесткий диск</li>
+    </ol>
+    <p>Устройства ввода/вывода</p>
+    <ol reversed>
+        <li>Динамики</li>
+        <li>Дисплей</li>
+        <li>Мышь</li>
+        <li>Клавиатура</li>
+        <li>Микрофон</li>
+    </ol>
+    <h1>Маркированный список/Unordered</h1>
+    <p>Курсы</p>
+    <ul>
+        <li><s>HTML</s>/CSS</li>
+        <li id="black">Python</li>
+        <li id="red">JavaScript</li>
+        <li>C#</li>
+    </ul>
+    <p>Список с иконкой</p>
+        <ul id = "img_list_2">
+            <li>Прочитать первый урок до 88 стр</li>
+            <li>Загрузить ДЗ</li>
+            <li>Позаниматься в стамине</li>
+        </ul>
+    <h1>Вложеный список</h1>
+    <ol>
+        <li>
+        Ноутбуки
+            <ul>
+                <li>Apple</li>
+                <li>HP</li>
+                <li>Lenovo</li>
+                <li>Asus</li>
+            </ul>
+        </li>
+        <li>
+        Аксесуары для ноутбука
+            <ul >
+                <li role="checkbox">Мышь</li>
+                <li>Клава</li>
+                <li>Чехол</li>
+                <li>Рюкзак</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>

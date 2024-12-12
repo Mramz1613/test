@@ -1,0 +1,74 @@
+body {
+    background: pink;
+}
+
+div{
+    background: rgb(73, 124, 199);
+    width: 500px;
+    margin: auto;
+}
+.calc{
+    display: flex;
+}
+.add{
+    background-color: green;
+}
+
+.sub{
+    background-color: blueviolet;
+}
+
+.mul{
+    background-color: grey;
+}
+
+.div{
+    background-color: blue;
+}
+.numbers,.buttons{
+    width: 45%;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.buttons2{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.num1{
+    margin-bottom: 15px;
+}
+
+.num2{
+    
+}
+button{
+    border: 1px;
+    border-radius: 10px;
+    margin: 5%;
+    transition: 0.7s;
+    text-align: center;
+}
+button:hover{
+    background-color: brown;
+    transform: scale(1.2);
+    
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid salmon;
+    color: pink;
+    outline: none;
+}
+
+input:focus{
+    box-shadow: 0 0 1px salmon;
+    border: 5px solid salmon;
+}

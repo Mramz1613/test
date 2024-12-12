@@ -1,0 +1,59 @@
+
+/* свойства для обоих тегов */
+.block{
+    display: inline-block; /* из блока в строки */
+    width: 80px;
+    height: 80px;
+    margin: 40px 25px;
+    text-align: center;
+    position: relative;
+}
+.block a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: rgb(37, 46, 5);
+    text-decoration: none;
+}
+.bl-1{
+    background-color: blueviolet;
+
+}
+.bl-2{
+    background-color: rgb(63, 220, 121);
+    
+}
+.bl-1::before{
+    content: '';
+    background-color: rgba(119, 42, 191, 0.5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    position: absolute;
+    transition: 1s ease;
+
+}
+.bl-2::before{
+    content: '';
+    background-color: rgba(48, 156, 88, 0.5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    position: absolute;
+    transition: 1s ease;
+}
+.bl-1:hover::before{
+    background-color: rgba(119, 42, 191, 0.5);
+    height: 100%;
+    position: absolute;
+    transition: 1s ease;
+
+}
+.bl-2:hover::before{
+    background-color: rgba(48, 156, 88, 0.5);
+    height: 100%;
+    position: absolute;
+    transition: 1s ease;
+}

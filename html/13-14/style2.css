@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.wrapper{
+    width: 960px;
+    border: 1px dashed black;
+    margin: 0 auto;
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+.block{
+    border: 1px dashed black;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.column_text{
+    text-align: center;
+}
+.column{
+    overflow: hidden;
+    border: 1px dashed black;
+}

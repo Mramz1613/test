@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(173, 103, 243);
+}
+#img{
+    list-style-image: url(../image/1.png);
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#winter{
+    color: rgb(28, 80, 213);
+    font-size: xx-large;
+}
+#spring{
+    color: rgb(210, 103, 99);
+    font-size: xx-large;
+}
+#summer{
+    color: green;
+    font-size: xx-large;
+}
+#fall{
+    color: yellow;
+    font-size: xx-large;
+}
+#snow{
+    list-style-type: "❄️";
+}
+#leaf{
+    list-style-type: "🍃";
+}
+#sun{
+    list-style-type: "☀️";
+}
+#fall_leaf{
+    list-style-type: "🌻";
+}
+#mar{
+    border: 3 px solid black;
+    margin: 20px 20px 20px 20px;  
+}
