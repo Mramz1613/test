@@ -27,5 +27,6 @@ try:
                     case 6: sql_queries.update_model(cursor,connection)
                     case 7: sql_queries.get_full_model_info(cursor)
                     case 8: sql_queries.get_brands_info(cursor)
+                    case _: print("Неизвестная команда\n")
 except pymysql.Error as e:
     print(e)
